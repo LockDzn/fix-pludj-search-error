@@ -13,7 +13,7 @@
   
 <br>
 
-## ❗ Error:
+## ⚠️ Error:
 
 <p align="center">
     <img src="https://i.imgur.com/bRyo5Kv.png"><br>
