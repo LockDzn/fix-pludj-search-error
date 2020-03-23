@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Fix PluDJ Search Error",
+    "version": "1.0.0",
+    "description": "Fix plugdj search error.\nCorrigir erro de pesquisa do plugdj.",
+	"permissions": ["https://content.googleapis.com/*"],
+    "content_scripts": [ {
+      "matches": [ "https://plug.dj/*" ],
+      "js": ["js/extension/jquery-1.9.1.min.js", "js/index.js"],
+      "run_at": "document_end"
+    } ]
+}
