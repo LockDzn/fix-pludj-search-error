@@ -13,7 +13,7 @@
   
 <br>
 
-## ⚠️ Error:
+## ❗ Error:
 
 <p align="center">
     <img src="https://i.imgur.com/bRyo5Kv.png"><br>
@@ -23,15 +23,10 @@
 
 
 Clone this repository `git clone https://github.com/LockDzn/fix-pludj-search-error.git`;
-<br>
 Go to: `chrome://extensions/`;
-<br>
 Click on `Load unpacked`;
-<br>
 Select the folder you just cloned;
-<br>
 Join a PlugDJ community;
-<br>
 As soon as the page loads, an alert will appear warning you that the error has been resolved.
 
 <br>

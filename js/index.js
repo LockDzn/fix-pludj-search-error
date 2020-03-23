@@ -1,13 +1,17 @@
 
 function updateKey () {
 
-	var key = "AIzaSyCrhJUhQ-iIjyCUp2Gkqu7D92FWptQGvY4";
+	$.getJSON("https://lockdzn.glitch.me/data.json", function(result){
+		$.each(result, function(i, field){
+			var key = field;
 	
-	var scriptFix = 'gapi.client.setApiKey("'+key+'");alert("Search error correction!");';
-	var scriptTag = document.createElement("script");
-	scriptTag.innerHTML = scriptFix;
-	document.head.appendChild(scriptTag);
-	console.log("Search error fix! ");
+			var scriptFix = 'gapi.client.setApiKey("'+key+'");alert("Search error correction!");';
+			var scriptTag = document.createElement("script");
+			scriptTag.innerHTML = scriptFix;
+			document.head.appendChild(scriptTag);
+			console.log("Search error fix! ");3
+		});
+	});
 }
 
 //updateKey()
